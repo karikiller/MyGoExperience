@@ -39,8 +39,12 @@ func main() {
 	var numThree uint = 25  // only >0
 	var numFour uint8 = 255 // from 0 to 255
 
+	fmt.Println(numOne, numTwo, numThree, numFour)
+
 	// float
 	var scoreOne float32 = 25.98
 	var scoreTwo float64 = 41239123821749812741294.5
 	scoreThree := 1.5 // float64
+
+	fmt.Println(scoreOne, scoreTwo, scoreThree)
 }
